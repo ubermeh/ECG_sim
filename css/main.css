@@ -1,0 +1,26 @@
+
+.container .row [class^="col-"]
+{
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container .row [class^="col-"]:nth-child(3n+2){
+    background: rgba(31, 145, 153, 0.15);
+    border: 1px solid rgba(86, 61, 124, 0.2);
+      }
+    }  
+@media (min-width: 576px) and (max-width: 767px) {
+  .container .row [class^="col-"]:nth-child(even){
+    background: rgba(31, 145, 153, 0.15);
+    border: 1px solid rgba(86, 61, 124, 0.2);
+      }
+    }
+@media (min-width: 992px){
+  .container .row [class^="col-"]:nth-child(even){
+    background: rgba(31, 145, 153, 0.15);
+    border: 1px solid rgba(86, 61, 124, 0.2);
+      }
+    }    
